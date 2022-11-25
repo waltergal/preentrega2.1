@@ -1,0 +1,63 @@
+#intro {font-size: 1.2em; }
+:link, :visited, :active { color: #000 ; text-decoration: none; font-family: sans-serif; }
+
+.tc {
+    text-align: center;
+}
+.zoom:hover{
+    transform : scale(1.1);
+    text-decoration: underline;
+    transition: 0.7s ease;
+    }
+       
+.fondo {
+     height: 100%; 
+     margin: 0px; 
+     background-image: url(./imagenes/fondo.jpg); 
+     background-attachment: fixed;
+    background-position: center; 
+    font-family: sans-serif; 
+    text-align: center; 
+    }
+
+.celda { 
+    display:inline;
+     }
+
+.subrayado{ 
+    box-shadow: 1px 1px 1px #090;
+    text-shadow: #fff 1px 1px 1px;
+    color: #000;
+    }
+
+.encabezado{
+    text-align: center;
+    }
+
+.imagen_logo{
+    width: 100%; 
+    }
+
+.tabla{
+    width: 800px;
+     max-width: 100%;
+    }
+
+.imagen_footer {
+    width: 70px;
+    height: auto;
+    }
+
+.galeria {
+    width: 200px;
+    height: auto;
+    }
+@media only screen and (max-width: 500px) {
+
+.celda  {  
+    float: left;
+     display: inline;
+     }
+
+}
+
